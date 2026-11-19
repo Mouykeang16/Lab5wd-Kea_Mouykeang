@@ -1,15 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html>                                  
+<html lang="en">                                  
+<head>                                            
+    <meta charset="UTF-8">                        
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+                                                 
+    <title>BudgetBuddy</title>                    
+    <link rel="stylesheet" href="style.css">    
 </head>
-<body>
-<div class="layout"></div>
-    <div class="sidebar"></div>
-    <div class="main"></div>
-    <div class="right-panel"></div>
-</div>
+<body>                                           
+
+    <div class="layout">                        
+
+        
+        <div class="sidebar">                     
+
+            <div class="logo">                    
+                <div class="logo-icon">B</div>    
+                <span>BudgetBuddy</span>          
+            </div>
+
+            <ul class="menu">                     
+                <li class="active">Dashboard</li> 
+                <li>Transactions</li>             
+                <li>Budgets</li>
+                <li>Goals</li>
+                <li>Settings</li>
+            </ul>
+
+        </div>
+
+        
+        <div class="main">                        
+
+            <div class="header">                  
+                <h1>Welcome back,Lily!</h1> 
+                <p>19 Nov 2026</p>                
+            </div>
+
+            <div class="stats">                   
+
+                <div class="card">                
+                    <p>Total Balance</p>          
+                    <h2>$2,450</h2>               
+                </div>
+
+                <div class="card">                
+                    <p>Income</p>
+                    <h2>$1,200</h2>
+                </div>
+
+                <div class="card">                
+                    <p>Expenses</p>
+                    <h2>$680</h2>
+                </div>
+
+            </div>
+
+            <div class="content">                 
+
+                <div class="card">                
+                    <h3>Recent Transactions</h3>  
+
+                    <ul class="transactions">     
+                        <li>                      
+                            <span>Coffee</span>   
+                            <span class="expense">-$3.50</span>  
+                        </li>
+                        <li>
+                            <span>Salary</span>
+                            <span class="income">+$1,200</span>  
+                        </li>
+                        <li>
+                            <span>Groceries</span>
+                            <span class="expense">-$45.00</span>
+                        </li>
+                        <li>
+                            <span>Internet</span>
+                            <span class="expense">-$20.00</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">                
+                    <h3>Spending by Category</h3>
+
+                    <div class="bar-row">         
+                        <p>Food</p>               
+                        <div class="bar">         
+                            <div class="bar-fill" style="width: 40%;"></div>
+                                                  
+                        </div>
+                    </div>
+
+                    <div class="bar-row">
+                        <p>Transport</p>
+                        <div class="bar">
+                            <div class="bar-fill" style="width: 25%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="bar-row">
+                        <p>Bills</p>
+                        <div class="bar">
+                            <div class="bar-fill" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        <div class="right-panel">                 
+
+            <div class="profile">                 
+                <div class="avatar">LL</div>      
+                <h3>Lily</h3>                
+                <p>Student</p>                    
+            </div>
+
+            <div class="card">                    
+                <h3>Upcoming Bills</h3>
+                <ul class="bills">                
+                    <li>
+                        <span>Rent</span>         
+                        <span>Due 25 Nov</span>   
+                    </li>
+                    <li>
+                        <span>Phone</span>
+                        <span>Due 28 Nov</span>
+                    </li>
+                    <li>
+                        <span>Internet</span>
+                        <span>Due 1 Dec</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card">                    
+                <h3>Savings Goal</h3>
+                <p>New laptop: 50%</p>            
+                <div class="bar">                 
+                    <div class="bar-fill" style="width: 50%;"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>                                        
 </body>
 </html>
