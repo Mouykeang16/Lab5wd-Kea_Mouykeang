@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+.layout{
+    display: grid;
+    grid-template-columns: 220px 1fr 280px;
+}
+.sidebar{
+    background: antiquewhite;
+}
+.main{
+    background: aquamarine;
+}
+.right-panel{
+    background: blueviolet;
+}
